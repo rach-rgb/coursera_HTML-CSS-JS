@@ -1,0 +1,75 @@
+body {
+	font-family: 'Zen Dots', sans-serif;
+}
+
+/** header **/
+#header-nav {
+	background-color: #98DDCA;
+	border: 0px solid black;
+	border-radius: 0;
+	padding: 5px;
+}
+
+.navbar-brand h1 { /* navbar title */
+	color: black;
+	font-family: 'Antonio', sans-serif;
+	font-size: 1.5em;
+	margin-top: 0px;
+}
+/** end of header */
+
+/** main content **/
+#main-title {
+	height: auto;
+	margin-top: 0px;
+	text-align: center;
+	font-size: 2em;
+	font-family: 'Antonio', sans-serif;
+}
+
+#main-content section {
+	margin-bottom: 10px;
+	padding: 30px 30px;
+}
+
+#menu1 {
+	background-color: #D5ECC2;
+}
+
+#menu2 {
+	background-color: #FFAAA7;
+}
+
+#menu3 {
+	background-color: #FFD3B4;
+}
+
+#main-content section h2 {
+	text-align: center;
+}
+
+#main-content section div {
+	line-height: 1.5em;
+}
+/** end of main content **/
+
+/** Desktop (md) **/
+@media (min-width: 768px) and (max-width: 991px) {
+	#main-content {
+		padding: 10px 10px 10px 10px;
+	}
+}
+
+/** Tablet (sm) **/
+@media (min-width: 576px) and (max-width: 767px) {
+	#main-content {
+		padding: 10px 10px;
+	}
+}
+
+/** Modile (xs) **/
+@media (max-width: 576px) {
+	#main-content {
+		padding: 50px 50px;
+	}
+}
