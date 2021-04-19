@@ -16,6 +16,29 @@
 	font-size: 1.5em;
 	margin-top: 0px;
 }
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border-color: #5B6D5B;
+}
+
+.navbar-header .navbar-toggle:hover {
+	background-color: #28B5B5;
+}
+
+.navbar-header .navbar-toggle:focus {
+	background-color: #28B5B5;
+}
+
+#collapsable-nav {
+	border-color: #5B6D5B;
+}
+
+#nav-list a {
+	font-size: 1.5em;
+	text-align: center;
+	color: #5B6D5B;
+}
+
 /** end of header */
 
 /** main content **/
