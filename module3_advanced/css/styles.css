@@ -1,0 +1,115 @@
+
+/** header **/
+#header-nav {
+	background-color: #98DDCA;
+	border: 0px solid black;
+	border-radius: 0;
+	padding: 5px;
+}
+
+#header-nav .container {
+	margin-left: 0px;
+}
+
+.navbar-brand h1 { /* navbar title */
+	color: black;
+	font-size: 1.5em;
+	margin-top: 0px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border-color: #5B6D5B;
+}
+
+.navbar-header .navbar-toggle:hover {
+	background-color: #28B5B5;
+}
+
+.navbar-header .navbar-toggle:focus {
+	background-color: #28B5B5;
+}
+
+#collapsable-nav {
+	border-color: #5B6D5B;
+}
+
+#nav-list a {
+	font-size: 1.5em;
+	text-align: center;
+	color: #5B6D5B;
+}
+
+/** end of header */
+
+/** main content **/
+#main-title {
+	margin-top: 0px;
+	text-align: center;
+	font-size: 2em;
+}
+
+#main-content {
+	width: 100%;
+	margin-top: -10px;
+}
+
+#main-content section {
+	margin-bottom: 10px;
+	padding: 10px 10px;
+}
+
+#main-content .content div {
+	padding: 5px 10px;
+}
+
+#menu1 div {
+	background-color: #D5ECC2;
+}
+
+#menu2 div {
+	background-color: #FFAAA7;
+}
+
+#menu3 div {
+	background-color: #FFD3B4;
+}
+
+#main-content section h3 {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 1.8em;
+}
+
+#main-content section div {
+	line-height: 1.5em;
+}
+/** end of main content **/
+
+/** Desktop (md) **/
+@media (min-width: 992px) and (max-width: 1199px) {
+	#main-content {
+		padding: 10px 10px;
+	}
+
+	#main-content .content div:nth-child(1) {
+		height: 880px;
+	}
+}
+
+/** Tablet (sm) **/
+@media (min-width: 768px) and (max-width: 991px) {
+	#main-content {
+		padding: 10px 10px;
+	}
+
+	#main-content .content div:nth-child(1) {
+		height: 700px;
+	}
+}
+
+/** Modile (xs) **/
+@media (max-width: 767px) {
+	#main-content {
+		padding: 10px 50px;
+	}
+}
